@@ -1,0 +1,14 @@
+Instruções:
+- No terminal, em server/src digite "python index.py";
+- Vá em cliente e abra o arquivo index.html;
+- Digite o produto que deseja buscar na barra de busca, espere alguns segundos e irá aparecer certos produtos relacionados com sua busca;
+Obs: Não exagere nas buscas pois seu ip pode tomar ban temporário se houver muitas requisições.
+
+Resumo da coleta de dados da Amazon:
+Foram coletados dados de busca de produtos da Amazon Brasil utilizando BeautifulSoup e Flask.
+Ao buscar por "mouse", os seguintes títulos foram extraídos:
+- Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto
+- Mouse Sem Fio Slim Box Conexão Usb 1200dpi 3 Botões Preto Multi - MO307
+- Mouse sem fio Logitech M280 com Conexão USB e Pilha Inclusa - Preto
+- Mouse Classic Box Óptico USB 1200dpi Preto Multi - MO300
+- entre outros...
